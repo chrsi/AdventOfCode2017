@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.UnitTests", "UnitTests\AdventOfCode.UnitTests.csproj", "{A84E61FD-7DF4-4D17-BA4F-6879B5005E67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.UnitTests", "AdventOfCode.UnitTests\AdventOfCode.UnitTests.csproj", "{A84E61FD-7DF4-4D17-BA4F-6879B5005E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day1", "Day1\AdventOfCode.Day1.csproj", "{0DF952BC-8B08-4A16-BE76-6A80419B7E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day1", "AdventOfCode.Day1\AdventOfCode.Day1.csproj", "{0DF952BC-8B08-4A16-BE76-6A80419B7E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Interfaces", "Interfaces\AdventOfCode.Interfaces.csproj", "{B409CF22-8DAF-4787-81B5-CC74DD07684C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Interfaces", "AdventOfCode.Interfaces\AdventOfCode.Interfaces.csproj", "{B409CF22-8DAF-4787-81B5-CC74DD07684C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
