@@ -1,22 +1,23 @@
-﻿using AdventOfCode.Interfaces;
-using System;
+﻿using System;
+using System.Linq;
 
 namespace AdventOfCode.Day1
 {
-    public class DayOneSolver : ISolver<double>
+    public class DayOneSolver
     {
-        public double Solve(string number)
+        public double Solve(string number, int offset = 1)
         {
+            var numbers = number.Select(chr => ConvertCharToNumber(chr)).ToList();
+
             double result = 0;
-            double lastNumber = ConvertCharToNumber(number[number.Length-1]);
-            for(int i = 0; i < number.Length; ++i)
+            for(int i = 0; i < numbers.Count; ++i)
             {
-                var currentNumber = ConvertCharToNumber(number[i]);
+                var lastNumber = numbers[i];
+                var currentNumber = ConvertCharToNumber(number[(i+offset)% numbers.Count]);
                 if (lastNumber == currentNumber)
                 {
                     result += currentNumber;
                 }
-                lastNumber = currentNumber;
             }
             return result;
         }
