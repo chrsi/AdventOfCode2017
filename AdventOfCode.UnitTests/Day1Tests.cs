@@ -1,10 +1,10 @@
 using AdventOfCode.Day1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCode
+namespace AdventOfCode.UnitTests
 {
     [TestClass]
-    public class UnitTests
+    public class Day1Tests
     {
         private readonly DayOneSolver solver = new DayOneSolver();
 
